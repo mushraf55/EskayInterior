@@ -1,0 +1,171 @@
+@media only screen and (min-width:768px) and (max-width:900px){
+  .choose-flex{
+    flex-direction: column;
+    text-align: center;
+  }
+  .card-content h3{
+    font-size: 20px;
+  }
+  .card-content p{
+    font-size: 17px;
+  }
+  .main-flex{
+    flex-direction: column;
+  }
+  .social-icons{
+    flex-direction: row;
+  }
+}
+@media only screen and (max-width:768px){
+  .choose-flex{
+    flex-direction: column;
+    text-align: center;
+  }
+  .card-content h3{
+    font-size: 20px;
+  }
+  .card-content p{
+    font-style: 17px;
+  }
+  .hamburger{
+    display: block;
+    cursor: pointer;
+    font-size: 20px
+  }
+  .nav-elements{
+    position: absolute;
+    height: 0;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    background-color: black;
+    transition: 0.2s;
+    overflow: hidden;
+  }
+  .nav-elements.active{
+    height: 450px;
+  }
+  .nav-elements ul {
+    display: block;
+    width: fit-content;
+    margin: 80px auto 0 auto;
+    text-align: center;
+    transition: 0.5s;
+    opacity: 0;
+  }
+  .nav-elements.active ul{
+    opacity: 1;
+  }
+  .nav-elements ul li{
+    color: aliceblue;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .nav-bar ul li a{
+    margin-bottom: 20px;
+  }
+  .ser-inner-flex{
+    flex-direction: column;
+  }
+  .faq-contents-flex{
+    flex-direction: column;
+  }
+  .card-contents{
+    flex-direction: column;
+  }
+  .main-flex{
+    flex-direction: column;
+  }
+  .social-icons{
+    flex-direction: row;
+  }
+}
+@media only screen and (max-width:520px){
+  .contents h1{
+    font-size: 40px;
+  }
+  .contents h4{
+    font-size: 25px;
+  }
+  .contents p{
+    font-size: 20px;
+  }
+  .subscribe{
+    font-size: 20px;
+  }
+  .margin-main{
+    margin: 50px 50px;
+  }
+  .heading-color{
+    margin: 0 50px;
+  }
+}
+@media only screen and (max-width:510px){
+  .why-choose-us h3{
+    font-size: 30px;
+  }
+  .choose-card h1{
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width:435px){
+  .why-choose-us h3{
+    font-size: 25px;
+  }
+  .faq-main-contents h1{
+    font-size: 20px;
+  }
+  .faq-main-contents p{
+    font-size: 15px;
+  }
+  .p1{
+    font-size: 15px;
+  }
+  .p2{
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width:395px){
+  .why-choose-us h3{
+    font-size: 23px;
+  }
+  .choose-us{
+    margin: 50px 20px;
+  }
+  .margin-main{
+    margin: 50px 20px;
+  }
+  .about-margin{
+    margin: 50px 20px;
+  }
+  .ser-margin{
+    margin: 50px 20px;
+  }
+  .margin-faq{
+    margin: 50px 20px;
+  }
+  .heading-color{
+    margin: 0 20px;
+  }
+}
+@media only screen and (max-width:425px){
+  .heading-color{
+    margin: 0 20px;
+  }
+  .margin-faq{
+    margin: 50px 20px;
+  }
+  .ser-margin{
+    margin: 50px 20px;
+  }
+  .about-margin{
+    margin: 50px 20px;
+  }
+  .margin-main{
+    margin: 50px 20px;
+  }
+  .choose-us{
+    margin: 50px 20px;
+  }
+}
